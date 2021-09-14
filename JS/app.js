@@ -13,8 +13,8 @@ const randomIntegerFromInterval = (min, max) => {
 const DELAY = 1000;
 
 const body = document.querySelector('body');
-const startBtn = document.getElementById('button[data-action-start]');
-const stopBtn = document.getElementById('button[data-action-stop]');
+const startBtn = document.querySelector('button[data-action="start"]');
+const stopBtn = document.querySelector('button[data-action="stop"]');
 
 startBtn.addEventListener('click', onStartClick);
 
